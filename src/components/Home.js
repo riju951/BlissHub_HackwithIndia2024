@@ -1,16 +1,22 @@
 import React from "react";
-import Logo from "../logo/logo.jpg";
+import Landing from "../img/landing.jpg";
 const Home = () => {
   return (
     <div className="flex justify-between items-center p-6">
       <div className="w-1/2 pr-8">
-        <div className="text-blue p-6 py-10 mt-5">
-          <h2 className="text-4xl mb-4">Unlock your inner calm</h2>
-          <p className="italic">"Future of Workplace is here."</p>
+        <div className="text-blue ml-20 space-y-8">
+          <div className="text-6xl mb-4 text-[#674FD7]">
+            BlissHub: Your Ultimate Stressbuster
+          </div>
+          <p className="italic text-[#1D5E9A] text-2xl ">
+            "Discover Your Digital Oasis for Mental and Emotional Harmony.
+            Tailor Your Journey to Inner Peace with Personalization and
+            Flexibility."
+          </p>
         </div>
       </div>
-      <div className="w-1/3">
-        <img src={Logo} alt="" className="max-w-full h-auto" />
+      <div className="w-1/3 mr-20">
+        <img src={Landing} alt="" className="max-w-full h-auto" />
       </div>
     </div>
   );
